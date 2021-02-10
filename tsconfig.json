@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "esnext",
+        "target": "esnext",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "strictFunctionTypes": true,
+        "strictNullChecks": true,
+        "noUnusedLocals": true,
+        "sourceMap": true,
+        "outDir": "./js",
+        "lib": ["esnext", "DOM"]
+    },
+    "include": ["ts/**/*"],
+    "exclude": ["js/**/*"]
+}

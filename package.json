@@ -1,0 +1,16 @@
+{
+    "name": "catwidget",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "compile": "./node_modules/typescript/bin/tsc --project tsconfig.json",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "typescript": "^4.1.3"
+    }
+}
